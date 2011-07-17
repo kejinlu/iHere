@@ -7,10 +7,23 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
+#import <MessageUI/MessageUI.h>
+#import "CoreLocationController.h"
+#import "DestinationPlaceMark.h"
 
-@interface iHereViewController : UIViewController {
-
+@interface iHereViewController : UIViewController<UIActionSheetDelegate,MFMessageComposeViewControllerDelegate,MFMailComposeViewControllerDelegate,CoreLocationControllerDelegate,MKMapViewDelegate> {
+	CoreLocationController *locationController;
+	MKMapView *mapView;
+	
+	CLLocationCoordinate2D destinationCoordinate;
+	DestinationPlaceMark *destinationPlaceMark;
 }
 
+@property(nonatomic,retain) IBOutlet MKMapView *mapView;
+- (IBAction)launchShareMenu;
+- (void)displayMessageComposer;
+- (void)displayMailComposer;
+- (void)launchMailAppOnDevice;
 @end
 

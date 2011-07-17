@@ -1,0 +1,765 @@
+TiHere
+v7
+r0
+t332590022.136357
+cCheck dependencies
+cCpResource build/Release-iphoneos/iHere.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/Info.plist iHere-Info.plist
+cCompileXIB /Users/Luke/Projects/iHere/MainWindow.xib
+cCompileXIB /Users/Luke/Projects/iHere/iHereViewController.xib
+cCopyPNGFile /Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/Icon-72.png appicons/Icon-72.png
+cCopyPNGFile /Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/Icon-Small-50.png appicons/Icon-Small-50.png
+cCopyPNGFile /Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/Icon-Small.png appicons/Icon-Small.png
+cCopyPNGFile /Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/Icon-Small@2x.png appicons/Icon-Small@2x.png
+cCopyPNGFile /Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/Icon.png appicons/Icon.png
+cCopyPNGFile /Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/Icon@2x.png appicons/Icon@2x.png
+cCpResource build/Release-iphoneos/iHere.app/iTunesArtwork appicons/iTunesArtwork
+cCopyPNGFile /Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/launch.png launch.png
+cCopyPNGFile /Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/launch@2x.png launch@2x.png
+cCopyPNGFile /Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/button.png button.png
+cProcessPCH /var/folders/t2/t2hCuEx3H8G5o8SSdaP+tU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iHere_Prefix-agkeiczhgfzshlegwjmhfbkrxbjk/iHere_Prefix.pch.gch iHere_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/t2/t2hCuEx3H8G5o8SSdaP+tU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iHere_Prefix-banvlxjeovvvlweqjmfmaajejfah/iHere_Prefix.pch.gch iHere_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv6/main.o /Users/Luke/Projects/iHere/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv6/iHereAppDelegate.o /Users/Luke/Projects/iHere/Classes/iHereAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv6/iHereViewController.o /Users/Luke/Projects/iHere/Classes/iHereViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv6/CoreLocationController.o /Users/Luke/Projects/iHere/Classes/CoreLocationController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv6/DestinationPlaceMark.o /Users/Luke/Projects/iHere/Classes/DestinationPlaceMark.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv7/main.o /Users/Luke/Projects/iHere/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv7/iHereAppDelegate.o /Users/Luke/Projects/iHere/Classes/iHereAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv7/iHereViewController.o /Users/Luke/Projects/iHere/Classes/iHereViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv7/CoreLocationController.o /Users/Luke/Projects/iHere/Classes/CoreLocationController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv7/DestinationPlaceMark.o /Users/Luke/Projects/iHere/Classes/DestinationPlaceMark.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv7/iHere normal armv7
+cLd /Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv6/iHere normal armv6
+cCreateUniversalBinary /Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/iHere normal "armv6 armv7"
+cGenerateDSYMFile /Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app.dSYM /Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/iHere
+cProcessProductPackaging "/Users/Luke/Library/MobileDevice/Provisioning Profiles/50DCFE56-AE9D-4821-8C1A-BB9680174F63.mobileprovision" /Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/embedded.mobileprovision
+cTouch /Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/iHere.xcent
+cCodeSign /Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app
+cValidate /Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+c000000004D5F25270000000000000110
+t1298081063
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+c000000004D4F6A4700000000000001A7
+t1297050183
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+c000000004D4F6A4700000000000001E5
+t1297050183
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54D18C00000000003532A0
+t1297404300
+s3486368
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004D5DE7AF00000000000FD4D0
+t1297999791
+s1037520
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004D5DE7A400000000000001D0
+t1297999780
+s464
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54D1F500000000003E22F0
+t1297404405
+s4072176
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54D1DD0000000000001466
+t1297404381
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
+c000000004D5C9CA600000000000002FE
+t1297915046
+s766
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c000000004D5C9CD400000000002B3AB0
+t1297915092
+s2833072
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MessageUI.h
+c000000004D5DEA8100000000000000CD
+t1298000513
+s205
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+c000000004D5DEA9B0000000000113080
+t1298000539
+s1126528
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5A28AB0000000000000AA1
+t1297754283
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5A292A0000000000CA2AE0
+t1297754410
+s13249248
+
+N/Users/Luke/Library/MobileDevice/Provisioning Profiles/50DCFE56-AE9D-4821-8C1A-BB9680174F63.mobileprovision
+c000000004E22A2170000000000001B86
+t1310892567
+s7046
+
+N/Users/Luke/Projects/iHere/Classes/CoreLocationController.h
+c000000004E21B7D10000000000000294
+t1310832593
+s660
+i<Foundation/Foundation.h>
+i<CoreLocation/CoreLocation.h>
+
+N/Users/Luke/Projects/iHere/Classes/CoreLocationController.m
+c000000004E21B22400000000000003EF
+t1310831140
+s1007
+i"CoreLocationController.h"
+
+N/Users/Luke/Projects/iHere/Classes/DestinationPlaceMark.h
+c000000004E224DA100000000000001D3
+t1310870945
+s467
+i<Foundation/Foundation.h>
+i<MapKit/MapKit.h>
+
+N/Users/Luke/Projects/iHere/Classes/DestinationPlaceMark.m
+c000000004E22A01500000000000001EC
+t1310892053
+s492
+i"DestinationPlaceMark.h"
+
+N/Users/Luke/Projects/iHere/Classes/iHereAppDelegate.h
+c000000004E2191E300000000000001C4
+t1310822883
+s452
+i<UIKit/UIKit.h>
+
+N/Users/Luke/Projects/iHere/Classes/iHereAppDelegate.m
+c000000004E2191E30000000000000A91
+t1310822883
+s2705
+i"iHereAppDelegate.h"
+i"iHereViewController.h"
+
+N/Users/Luke/Projects/iHere/Classes/iHereViewController.h
+c000000004E22B175000000000000033B
+t1310896501
+s827
+i<UIKit/UIKit.h>
+i<MapKit/MapKit.h>
+i<MessageUI/MessageUI.h>
+i"CoreLocationController.h"
+i"DestinationPlaceMark.h"
+
+N/Users/Luke/Projects/iHere/Classes/iHereViewController.m
+c000000004E22B26E00000000000019A3
+t1310896750
+s6563
+i"iHereViewController.h"
+
+N/Users/Luke/Projects/iHere/MainWindow.xib
+c000000004E2191E30000000000004E11
+t1310822883
+s19985
+
+N/Users/Luke/Projects/iHere/appicons/Icon-72.png
+c000000004E21C8610000000000003CD9
+t1310836833
+s15577
+
+N/Users/Luke/Projects/iHere/appicons/Icon-Small-50.png
+c000000004E21C8610000000000002A8C
+t1310836833
+s10892
+
+N/Users/Luke/Projects/iHere/appicons/Icon-Small.png
+c000000004E21C8610000000000001EF1
+t1310836833
+s7921
+
+N/Users/Luke/Projects/iHere/appicons/Icon-Small@2x.png
+c000000004E21C8610000000000003037
+t1310836833
+s12343
+
+N/Users/Luke/Projects/iHere/appicons/Icon.png
+c000000004E21C8610000000000002FB6
+t1310836833
+s12214
+
+N/Users/Luke/Projects/iHere/appicons/Icon@2x.png
+c000000004E21C86100000000000070B1
+t1310836833
+s28849
+
+N/Users/Luke/Projects/iHere/appicons/iTunesArtwork
+c000000004E21C8610000000000053E4B
+t1310836833
+s343627
+
+N/Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app
+t1310897221
+s714
+
+N/Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app.dSYM
+t1310897221
+s102
+
+N/Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/Icon-72.png
+t1310897219
+s14110
+
+N/Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/Icon-Small-50.png
+t1310897219
+s10313
+
+N/Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/Icon-Small.png
+t1310897219
+s7802
+
+N/Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/Icon-Small@2x.png
+t1310897219
+s11542
+
+N/Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/Icon.png
+t1310897219
+s11395
+
+N/Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/Icon@2x.png
+t1310897219
+s24766
+
+N/Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/Info.plist
+t1310897219
+s1022
+
+N/Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/MainWindow.nib
+t1310897219
+s1119
+
+N/Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/PkgInfo
+t1310897219
+s8
+
+N/Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/ResourceRules.plist
+t1310897219
+s485
+
+N/Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/button.png
+t1310897219
+s13412
+
+N/Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/embedded.mobileprovision
+t1310897221
+s7046
+
+N/Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/iHere
+t1310897221
+s64656
+
+N/Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/iHereViewController.nib
+t1310897219
+s1948
+
+N/Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/iTunesArtwork
+t1310897219
+s343627
+
+N/Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/launch.png
+t1310897219
+s274214
+
+N/Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/launch@2x.png
+t1310897220
+s1200268
+
+N/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv6/CoreLocationController.o
+t1310897221
+s15912
+
+N/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv6/DestinationPlaceMark.o
+t1310897221
+s12180
+
+N/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv6/iHere
+t1310897221
+s27788
+
+N/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv6/iHere.LinkFileList
+c000000004E22B443000000000000023B
+t1310897219
+s571
+
+N/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv6/iHereAppDelegate.o
+t1310897221
+s52436
+
+N/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv6/iHereViewController.o
+t1310897221
+s71576
+
+N/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv6/main.o
+t1310897221
+s7356
+
+N/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv7/CoreLocationController.o
+t1310897221
+s15916
+
+N/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv7/DestinationPlaceMark.o
+t1310897221
+s12180
+
+N/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv7/iHere
+t1310897221
+s31888
+
+N/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv7/iHere.LinkFileList
+c000000004E22B443000000000000023B
+t1310897219
+s571
+
+N/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv7/iHereAppDelegate.o
+t1310897221
+s52460
+
+N/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv7/iHereViewController.o
+t1310897221
+s71564
+
+N/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv7/main.o
+t1310897221
+s7332
+
+N/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/iHere.xcent
+t1310897221
+s407
+
+N/Users/Luke/Projects/iHere/button.png
+c000000004E22ACB40000000000002EED
+t1310895284
+s12013
+
+N/Users/Luke/Projects/iHere/iHereViewController.xib
+c000000004E22AD98000000000000522D
+t1310895512
+s21037
+
+N/Users/Luke/Projects/iHere/iHere_Prefix.pch
+c000000004E2191E300000000000000B3
+t1310822883
+s179
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Luke/Projects/iHere/launch.png
+c000000004E22ACD60000000000033F1C
+t1310895318
+s212764
+
+N/Users/Luke/Projects/iHere/launch@2x.png
+c000000004E22A89D00000000000E9F54
+t1310894237
+s958292
+
+N/Users/Luke/Projects/iHere/main.m
+c000000004E2191E30000000000000158
+t1310822883
+s344
+i<UIKit/UIKit.h>
+
+N/var/folders/t2/t2hCuEx3H8G5o8SSdaP+tU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iHere_Prefix-agkeiczhgfzshlegwjmhfbkrxbjk/iHere_Prefix.pch.gch
+t1310897221
+s9979804
+
+N/var/folders/t2/t2hCuEx3H8G5o8SSdaP+tU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iHere_Prefix-banvlxjeovvvlweqjmfmaajejfah/iHere_Prefix.pch.gch
+t1310897221
+s10442652
+
+NiHere-Info.plist
+c000000004E22A83400000000000004BD
+t1310894132
+s1213
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies332590019#332590019#0(0"0(0#1#0"8627381184#0"0#
+
+CCodeSign /Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app
+s332590021.518587
+e332590021.662749
+r1
+xCodeSign
+x/Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app
+lSLF07#2@41"CodeSign build/Release-iphoneos/iHere.app332590021#332590021#0(0"0(0#0#59"/Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app8624912288#582"    cd /Users/Luke/Projects/iHere    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Distribution: LU KEJIN" --resource-rules=/Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/ResourceRules.plist --entitlements /Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/iHere.xcent /Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app0#
+
+CCompileC build/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv6/CoreLocationController.o /Users/Luke/Projects/iHere/Classes/CoreLocationController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s332590021.262255
+e332590021.363756
+r1
+xCompileC
+xbuild/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv6/CoreLocationController.o
+x/Users/Luke/Projects/iHere/Classes/CoreLocationController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/Luke/Projects/iHere/Classes/CoreLocationController.m332590021#332590021#0(0"0(0#0#59"/Users/Luke/Projects/iHere/Classes/CoreLocationController.m8620116576#1638"    cd /Users/Luke/Projects/iHere    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/iHere-generated-files.hmap -I/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/iHere-own-target-headers.hmap -I/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/iHere-all-target-headers.hmap -iquote /Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/iHere-project-headers.hmap -F/Users/Luke/Projects/iHere/build/Release-iphoneos -I/Users/Luke/Projects/iHere/build/Release-iphoneos/include -I/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/DerivedSources/armv6 -I/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/t2/t2hCuEx3H8G5o8SSdaP+tU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iHere_Prefix-agkeiczhgfzshlegwjmhfbkrxbjk/iHere_Prefix.pch -c /Users/Luke/Projects/iHere/Classes/CoreLocationController.m -o /Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv6/CoreLocationController.o0#
+
+CCompileC build/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv6/DestinationPlaceMark.o /Users/Luke/Projects/iHere/Classes/DestinationPlaceMark.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s332590021.263103
+e332590021.331176
+r1
+xCompileC
+xbuild/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv6/DestinationPlaceMark.o
+x/Users/Luke/Projects/iHere/Classes/DestinationPlaceMark.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/Luke/Projects/iHere/Classes/DestinationPlaceMark.m332590021#332590021#0(0"0(0#0#57"/Users/Luke/Projects/iHere/Classes/DestinationPlaceMark.m8613131648#1634"    cd /Users/Luke/Projects/iHere    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/iHere-generated-files.hmap -I/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/iHere-own-target-headers.hmap -I/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/iHere-all-target-headers.hmap -iquote /Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/iHere-project-headers.hmap -F/Users/Luke/Projects/iHere/build/Release-iphoneos -I/Users/Luke/Projects/iHere/build/Release-iphoneos/include -I/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/DerivedSources/armv6 -I/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/t2/t2hCuEx3H8G5o8SSdaP+tU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iHere_Prefix-agkeiczhgfzshlegwjmhfbkrxbjk/iHere_Prefix.pch -c /Users/Luke/Projects/iHere/Classes/DestinationPlaceMark.m -o /Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv6/DestinationPlaceMark.o0#
+
+CCompileC build/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv6/iHereAppDelegate.o /Users/Luke/Projects/iHere/Classes/iHereAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s332590021.260177
+e332590021.362011
+r1
+xCompileC
+xbuild/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv6/iHereAppDelegate.o
+x/Users/Luke/Projects/iHere/Classes/iHereAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/Luke/Projects/iHere/Classes/iHereAppDelegate.m332590021#332590021#0(0"0(0#0#53"/Users/Luke/Projects/iHere/Classes/iHereAppDelegate.m8627122944#1626"    cd /Users/Luke/Projects/iHere    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/iHere-generated-files.hmap -I/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/iHere-own-target-headers.hmap -I/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/iHere-all-target-headers.hmap -iquote /Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/iHere-project-headers.hmap -F/Users/Luke/Projects/iHere/build/Release-iphoneos -I/Users/Luke/Projects/iHere/build/Release-iphoneos/include -I/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/DerivedSources/armv6 -I/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/t2/t2hCuEx3H8G5o8SSdaP+tU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iHere_Prefix-agkeiczhgfzshlegwjmhfbkrxbjk/iHere_Prefix.pch -c /Users/Luke/Projects/iHere/Classes/iHereAppDelegate.m -o /Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv6/iHereAppDelegate.o0#
+
+CCompileC build/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv6/iHereViewController.o /Users/Luke/Projects/iHere/Classes/iHereViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s332590021.261255
+e332590021.447515
+r1
+xCompileC
+xbuild/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv6/iHereViewController.o
+x/Users/Luke/Projects/iHere/Classes/iHereViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/Luke/Projects/iHere/Classes/iHereViewController.m332590021#332590021#0(0"0(0#0#56"/Users/Luke/Projects/iHere/Classes/iHereViewController.m8620712768#1632"    cd /Users/Luke/Projects/iHere    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/iHere-generated-files.hmap -I/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/iHere-own-target-headers.hmap -I/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/iHere-all-target-headers.hmap -iquote /Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/iHere-project-headers.hmap -F/Users/Luke/Projects/iHere/build/Release-iphoneos -I/Users/Luke/Projects/iHere/build/Release-iphoneos/include -I/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/DerivedSources/armv6 -I/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/t2/t2hCuEx3H8G5o8SSdaP+tU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iHere_Prefix-agkeiczhgfzshlegwjmhfbkrxbjk/iHere_Prefix.pch -c /Users/Luke/Projects/iHere/Classes/iHereViewController.m -o /Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv6/iHereViewController.o0#
+
+CCompileC build/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv6/main.o /Users/Luke/Projects/iHere/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s332590021.258916
+e332590021.312254
+r1
+xCompileC
+xbuild/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv6/main.o
+x/Users/Luke/Projects/iHere/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@41"Compile /Users/Luke/Projects/iHere/main.m332590021#332590021#0(0"0(0#0#33"/Users/Luke/Projects/iHere/main.m8611810336#1594"    cd /Users/Luke/Projects/iHere    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/iHere-generated-files.hmap -I/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/iHere-own-target-headers.hmap -I/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/iHere-all-target-headers.hmap -iquote /Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/iHere-project-headers.hmap -F/Users/Luke/Projects/iHere/build/Release-iphoneos -I/Users/Luke/Projects/iHere/build/Release-iphoneos/include -I/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/DerivedSources/armv6 -I/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/t2/t2hCuEx3H8G5o8SSdaP+tU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iHere_Prefix-agkeiczhgfzshlegwjmhfbkrxbjk/iHere_Prefix.pch -c /Users/Luke/Projects/iHere/main.m -o /Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv7/CoreLocationController.o /Users/Luke/Projects/iHere/Classes/CoreLocationController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s332590021.312404
+e332590021.398137
+r1
+xCompileC
+xbuild/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv7/CoreLocationController.o
+x/Users/Luke/Projects/iHere/Classes/CoreLocationController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/Luke/Projects/iHere/Classes/CoreLocationController.m332590021#332590021#0(0"0(0#0#59"/Users/Luke/Projects/iHere/Classes/CoreLocationController.m8623535840#1638"    cd /Users/Luke/Projects/iHere    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/iHere-generated-files.hmap -I/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/iHere-own-target-headers.hmap -I/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/iHere-all-target-headers.hmap -iquote /Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/iHere-project-headers.hmap -F/Users/Luke/Projects/iHere/build/Release-iphoneos -I/Users/Luke/Projects/iHere/build/Release-iphoneos/include -I/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/DerivedSources/armv7 -I/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/t2/t2hCuEx3H8G5o8SSdaP+tU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iHere_Prefix-banvlxjeovvvlweqjmfmaajejfah/iHere_Prefix.pch -c /Users/Luke/Projects/iHere/Classes/CoreLocationController.m -o /Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv7/CoreLocationController.o0#
+
+CCompileC build/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv7/DestinationPlaceMark.o /Users/Luke/Projects/iHere/Classes/DestinationPlaceMark.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s332590021.316461
+e332590021.379923
+r1
+xCompileC
+xbuild/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv7/DestinationPlaceMark.o
+x/Users/Luke/Projects/iHere/Classes/DestinationPlaceMark.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/Luke/Projects/iHere/Classes/DestinationPlaceMark.m332590021#332590021#0(0"0(0#0#57"/Users/Luke/Projects/iHere/Classes/DestinationPlaceMark.m8621955040#1634"    cd /Users/Luke/Projects/iHere    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/iHere-generated-files.hmap -I/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/iHere-own-target-headers.hmap -I/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/iHere-all-target-headers.hmap -iquote /Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/iHere-project-headers.hmap -F/Users/Luke/Projects/iHere/build/Release-iphoneos -I/Users/Luke/Projects/iHere/build/Release-iphoneos/include -I/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/DerivedSources/armv7 -I/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/t2/t2hCuEx3H8G5o8SSdaP+tU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iHere_Prefix-banvlxjeovvvlweqjmfmaajejfah/iHere_Prefix.pch -c /Users/Luke/Projects/iHere/Classes/DestinationPlaceMark.m -o /Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv7/DestinationPlaceMark.o0#
+
+CCompileC build/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv7/iHereAppDelegate.o /Users/Luke/Projects/iHere/Classes/iHereAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s332590021.264910
+e332590021.371340
+r1
+xCompileC
+xbuild/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv7/iHereAppDelegate.o
+x/Users/Luke/Projects/iHere/Classes/iHereAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/Luke/Projects/iHere/Classes/iHereAppDelegate.m332590021#332590021#0(0"0(0#0#53"/Users/Luke/Projects/iHere/Classes/iHereAppDelegate.m8624906752#1626"    cd /Users/Luke/Projects/iHere    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/iHere-generated-files.hmap -I/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/iHere-own-target-headers.hmap -I/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/iHere-all-target-headers.hmap -iquote /Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/iHere-project-headers.hmap -F/Users/Luke/Projects/iHere/build/Release-iphoneos -I/Users/Luke/Projects/iHere/build/Release-iphoneos/include -I/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/DerivedSources/armv7 -I/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/t2/t2hCuEx3H8G5o8SSdaP+tU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iHere_Prefix-banvlxjeovvvlweqjmfmaajejfah/iHere_Prefix.pch -c /Users/Luke/Projects/iHere/Classes/iHereAppDelegate.m -o /Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv7/iHereAppDelegate.o0#
+
+CCompileC build/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv7/iHereViewController.o /Users/Luke/Projects/iHere/Classes/iHereViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s332590021.266368
+e332590021.446695
+r1
+xCompileC
+xbuild/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv7/iHereViewController.o
+x/Users/Luke/Projects/iHere/Classes/iHereViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/Luke/Projects/iHere/Classes/iHereViewController.m332590021#332590021#0(0"0(0#0#56"/Users/Luke/Projects/iHere/Classes/iHereViewController.m8624020480#1632"    cd /Users/Luke/Projects/iHere    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/iHere-generated-files.hmap -I/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/iHere-own-target-headers.hmap -I/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/iHere-all-target-headers.hmap -iquote /Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/iHere-project-headers.hmap -F/Users/Luke/Projects/iHere/build/Release-iphoneos -I/Users/Luke/Projects/iHere/build/Release-iphoneos/include -I/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/DerivedSources/armv7 -I/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/t2/t2hCuEx3H8G5o8SSdaP+tU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iHere_Prefix-banvlxjeovvvlweqjmfmaajejfah/iHere_Prefix.pch -c /Users/Luke/Projects/iHere/Classes/iHereViewController.m -o /Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv7/iHereViewController.o0#
+
+CCompileC build/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv7/main.o /Users/Luke/Projects/iHere/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s332590021.263967
+e332590021.316324
+r1
+xCompileC
+xbuild/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv7/main.o
+x/Users/Luke/Projects/iHere/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@41"Compile /Users/Luke/Projects/iHere/main.m332590021#332590021#0(0"0(0#0#33"/Users/Luke/Projects/iHere/main.m8627477472#1594"    cd /Users/Luke/Projects/iHere    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/iHere-generated-files.hmap -I/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/iHere-own-target-headers.hmap -I/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/iHere-all-target-headers.hmap -iquote /Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/iHere-project-headers.hmap -F/Users/Luke/Projects/iHere/build/Release-iphoneos -I/Users/Luke/Projects/iHere/build/Release-iphoneos/include -I/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/DerivedSources/armv7 -I/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/t2/t2hCuEx3H8G5o8SSdaP+tU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iHere_Prefix-banvlxjeovvvlweqjmfmaajejfah/iHere_Prefix.pch -c /Users/Luke/Projects/iHere/main.m -o /Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/Luke/Projects/iHere/MainWindow.xib
+s332590019.254709
+e332590019.702163
+r1
+xCompileXIB
+x/Users/Luke/Projects/iHere/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib332590019#332590019#0(0"0(0#0#41"/Users/Luke/Projects/iHere/MainWindow.xib29555289171492912#506"    cd /Users/Luke/Projects/iHere    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/MainWindow.nib /Users/Luke/Projects/iHere/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCompileXIB /Users/Luke/Projects/iHere/iHereViewController.xib
+s332590019.255169
+e332590019.763477
+r1
+xCompileXIB
+x/Users/Luke/Projects/iHere/iHereViewController.xib
+lSLF07#2@34"CompileXIB iHereViewController.xib332590019#332590019#0(0"0(0#0#50"/Users/Luke/Projects/iHere/iHereViewController.xib8621802816#524"    cd /Users/Luke/Projects/iHere    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/iHereViewController.nib /Users/Luke/Projects/iHere/iHereViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCopyPNGFile /Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/Icon-72.png appicons/Icon-72.png
+s332590019.255597
+e332590019.404569
+r1
+xCopyPNGFile
+x/Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/Icon-72.png
+xappicons/Icon-72.png
+lSLF07#2@77"CopyPNGFile build/Release-iphoneos/iHere.app/Icon-72.png appicons/Icon-72.png332590019#332590019#0(0"0(0#0#47"/Users/Luke/Projects/iHere/appicons/Icon-72.png8621718688#435"    cd /Users/Luke/Projects/iHere    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Luke/Projects/iHere/appicons/Icon-72.png /Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/Icon-72.png0#
+
+CCopyPNGFile /Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/Icon-Small-50.png appicons/Icon-Small-50.png
+s332590019.256020
+e332590019.384346
+r1
+xCopyPNGFile
+x/Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/Icon-Small-50.png
+xappicons/Icon-Small-50.png
+lSLF07#2@89"CopyPNGFile build/Release-iphoneos/iHere.app/Icon-Small-50.png appicons/Icon-Small-50.png332590019#332590019#0(0"0(0#0#53"/Users/Luke/Projects/iHere/appicons/Icon-Small-50.png8621672480#447"    cd /Users/Luke/Projects/iHere    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Luke/Projects/iHere/appicons/Icon-Small-50.png /Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/Icon-Small-50.png0#
+
+CCopyPNGFile /Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/Icon-Small.png appicons/Icon-Small.png
+s332590019.256435
+e332590019.386335
+r1
+xCopyPNGFile
+x/Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/Icon-Small.png
+xappicons/Icon-Small.png
+lSLF07#2@83"CopyPNGFile build/Release-iphoneos/iHere.app/Icon-Small.png appicons/Icon-Small.png332590019#332590019#0(0"0(0#0#50"/Users/Luke/Projects/iHere/appicons/Icon-Small.png8621610592#441"    cd /Users/Luke/Projects/iHere    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Luke/Projects/iHere/appicons/Icon-Small.png /Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/Icon-Small.png0#
+
+CCopyPNGFile /Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/Icon-Small@2x.png appicons/Icon-Small@2x.png
+s332590019.256844
+e332590019.394456
+r1
+xCopyPNGFile
+x/Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/Icon-Small@2x.png
+xappicons/Icon-Small@2x.png
+lSLF07#2@89"CopyPNGFile build/Release-iphoneos/iHere.app/Icon-Small@2x.png appicons/Icon-Small@2x.png332590019#332590019#0(0"0(0#0#53"/Users/Luke/Projects/iHere/appicons/Icon-Small@2x.png8621298624#447"    cd /Users/Luke/Projects/iHere    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Luke/Projects/iHere/appicons/Icon-Small@2x.png /Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/Icon-Small@2x.png0#
+
+CCopyPNGFile /Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/Icon.png appicons/Icon.png
+s332590019.257281
+e332590019.386448
+r1
+xCopyPNGFile
+x/Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/Icon.png
+xappicons/Icon.png
+lSLF07#2@71"CopyPNGFile build/Release-iphoneos/iHere.app/Icon.png appicons/Icon.png332590019#332590019#0(0"0(0#0#44"/Users/Luke/Projects/iHere/appicons/Icon.png8620989792#429"    cd /Users/Luke/Projects/iHere    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Luke/Projects/iHere/appicons/Icon.png /Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/Icon.png0#
+
+CCopyPNGFile /Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/Icon@2x.png appicons/Icon@2x.png
+s332590019.257715
+e332590019.459270
+r1
+xCopyPNGFile
+x/Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/Icon@2x.png
+xappicons/Icon@2x.png
+lSLF07#2@77"CopyPNGFile build/Release-iphoneos/iHere.app/Icon@2x.png appicons/Icon@2x.png332590019#332590019#0(0"0(0#0#47"/Users/Luke/Projects/iHere/appicons/Icon@2x.png8620830080#435"    cd /Users/Luke/Projects/iHere    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Luke/Projects/iHere/appicons/Icon@2x.png /Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/Icon@2x.png0#
+
+CCopyPNGFile /Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/button.png button.png
+s332590019.394543
+e332590019.453797
+r1
+xCopyPNGFile
+x/Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/button.png
+xbutton.png
+lSLF07#2@66"CopyPNGFile build/Release-iphoneos/iHere.app/button.png button.png332590019#332590019#0(0"0(0#0#37"/Users/Luke/Projects/iHere/button.png8619903488#424"    cd /Users/Luke/Projects/iHere    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Luke/Projects/iHere/button.png /Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/button.png0#
+
+CCopyPNGFile /Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/launch.png launch.png
+s332590019.385328
+e332590019.749343
+r1
+xCopyPNGFile
+x/Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/launch.png
+xlaunch.png
+lSLF07#2@66"CopyPNGFile build/Release-iphoneos/iHere.app/launch.png launch.png332590019#332590019#0(0"0(0#0#37"/Users/Luke/Projects/iHere/launch.png8620385088#424"    cd /Users/Luke/Projects/iHere    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Luke/Projects/iHere/launch.png /Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/launch.png0#
+
+CCopyPNGFile /Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/launch@2x.png launch@2x.png
+s332590019.386518
+e332590020.408136
+r1
+xCopyPNGFile
+x/Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/launch@2x.png
+xlaunch@2x.png
+lSLF07#2@72"CopyPNGFile build/Release-iphoneos/iHere.app/launch@2x.png launch@2x.png332590019#332590020#0(0"0(0#0#40"/Users/Luke/Projects/iHere/launch@2x.png8620098368#430"    cd /Users/Luke/Projects/iHere    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Luke/Projects/iHere/launch@2x.png /Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/launch@2x.png0#
+
+CCpResource build/Release-iphoneos/iHere.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+s332590019.249980
+e332590019.253291
+r1
+xCpResource
+xbuild/Release-iphoneos/iHere.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist332590019#332590019#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist8623607648#491"    cd /Users/Luke/Projects/iHere    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist /Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app0#
+
+CCpResource build/Release-iphoneos/iHere.app/iTunesArtwork appicons/iTunesArtwork
+s332590019.384456
+e332590019.394304
+r1
+xCpResource
+xbuild/Release-iphoneos/iHere.app/iTunesArtwork
+xappicons/iTunesArtwork
+lSLF07#2@27"Copy appicons/iTunesArtwork332590019#332590019#0(0"0(0#0#49"/Users/Luke/Projects/iHere/appicons/iTunesArtwork8620484544#451"    cd /Users/Luke/Projects/iHere    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/Luke/Projects/iHere/appicons/iTunesArtwork /Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app0#
+
+CCreateUniversalBinary /Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/iHere normal "armv6 armv7"
+s332590021.469847
+e332590021.471710
+r1
+xCreateUniversalBinary
+x/Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/iHere
+xnormal
+xarmv6 armv7
+lSLF07#2@81"CreateUniversalBinary build/Release-iphoneos/iHere.app/iHere normal "armv6 armv7"332590021#332590021#0(0"0(0#0#38"/Users/Luke/Projects/iHere/armv6 armv78624019808#460"    cd /Users/Luke/Projects/iHere    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv6/iHere /Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv7/iHere -output /Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/iHere0#
+
+CGenerateDSYMFile /Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app.dSYM /Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/iHere
+s332590021.471760
+e332590021.488497
+r1
+xGenerateDSYMFile
+x/Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app.dSYM
+x/Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/iHere
+lSLF07#2@93"GenerateDSYMFile build/Release-iphoneos/iHere.app.dSYM build/Release-iphoneos/iHere.app/iHere332590021#332590021#0(0"0(0#0#65"/Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/iHere8623760832#324"    cd /Users/Luke/Projects/iHere    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/iHere -o /Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app.dSYM0#
+
+CLd /Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv6/iHere normal armv6
+s332590021.447562
+e332590021.469383
+r1
+xLd
+x/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv6/iHere
+xnormal
+xarmv6
+lSLF07#2@105"Link /Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv6/iHere332590021#332590021#0(0"0(0#0#0"8624959904#858"    cd /Users/Luke/Projects/iHere    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/Luke/Projects/iHere/build/Release-iphoneos -F/Users/Luke/Projects/iHere/build/Release-iphoneos -filelist /Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv6/iHere.LinkFileList -dead_strip -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -framework MapKit -framework MessageUI -o /Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv6/iHere0#
+
+CLd /Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv7/iHere normal armv7
+s332590021.446804
+e332590021.469793
+r1
+xLd
+x/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv7/iHere
+xnormal
+xarmv7
+lSLF07#2@105"Link /Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv7/iHere332590021#332590021#0(0"0(0#0#0"8626760832#858"    cd /Users/Luke/Projects/iHere    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/Luke/Projects/iHere/build/Release-iphoneos -F/Users/Luke/Projects/iHere/build/Release-iphoneos -filelist /Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv7/iHere.LinkFileList -dead_strip -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -framework MapKit -framework MessageUI -o /Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/Objects-normal/armv7/iHere0#
+
+CProcessInfoPlistFile /Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/Info.plist iHere-Info.plist
+s332590019.250692
+e332590019.254642
+r1
+xProcessInfoPlistFile
+x/Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/Info.plist
+xiHere-Info.plist
+lSLF07#2@24"Process iHere-Info.plist332590019#332590019#0(0"0(0#0#43"/Users/Luke/Projects/iHere/iHere-Info.plist8622326272#512"    cd /Users/Luke/Projects/iHere    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility iHere-Info.plist -genpkginfo /Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/ResourceRules.plist -o /Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/Info.plist0#
+
+CProcessPCH /var/folders/t2/t2hCuEx3H8G5o8SSdaP+tU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iHere_Prefix-agkeiczhgfzshlegwjmhfbkrxbjk/iHere_Prefix.pch.gch iHere_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s332590020.408293
+e332590021.206613
+r1
+xProcessPCH
+x/var/folders/t2/t2hCuEx3H8G5o8SSdaP+tU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iHere_Prefix-agkeiczhgfzshlegwjmhfbkrxbjk/iHere_Prefix.pch.gch
+xiHere_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@27"Precompile iHere_Prefix.pch332590020#332590021#0(0"0(0#0#43"/Users/Luke/Projects/iHere/iHere_Prefix.pch8613766144#1504"    cd /Users/Luke/Projects/iHere    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/iHere-generated-files.hmap -I/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/iHere-own-target-headers.hmap -I/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/iHere-all-target-headers.hmap -iquote /Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/iHere-project-headers.hmap -F/Users/Luke/Projects/iHere/build/Release-iphoneos -I/Users/Luke/Projects/iHere/build/Release-iphoneos/include -I/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/DerivedSources/armv6 -I/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/Luke/Projects/iHere/iHere_Prefix.pch -o /var/folders/t2/t2hCuEx3H8G5o8SSdaP+tU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iHere_Prefix-agkeiczhgfzshlegwjmhfbkrxbjk/iHere_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/t2/t2hCuEx3H8G5o8SSdaP+tU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iHere_Prefix-banvlxjeovvvlweqjmfmaajejfah/iHere_Prefix.pch.gch iHere_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s332590020.408968
+e332590021.258783
+r1
+xProcessPCH
+x/var/folders/t2/t2hCuEx3H8G5o8SSdaP+tU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iHere_Prefix-banvlxjeovvvlweqjmfmaajejfah/iHere_Prefix.pch.gch
+xiHere_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@27"Precompile iHere_Prefix.pch332590020#332590021#0(0"0(0#0#43"/Users/Luke/Projects/iHere/iHere_Prefix.pch8620819488#1504"    cd /Users/Luke/Projects/iHere    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/iHere-generated-files.hmap -I/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/iHere-own-target-headers.hmap -I/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/iHere-all-target-headers.hmap -iquote /Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/iHere-project-headers.hmap -F/Users/Luke/Projects/iHere/build/Release-iphoneos -I/Users/Luke/Projects/iHere/build/Release-iphoneos/include -I/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/DerivedSources/armv7 -I/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/Luke/Projects/iHere/iHere_Prefix.pch -o /var/folders/t2/t2hCuEx3H8G5o8SSdaP+tU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iHere_Prefix-banvlxjeovvvlweqjmfmaajejfah/iHere_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/Luke/Library/MobileDevice/Provisioning Profiles/50DCFE56-AE9D-4821-8C1A-BB9680174F63.mobileprovision" /Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/embedded.mobileprovision
+s332590021.488577
+e332590021.489415
+r1
+xProcessProductPackaging
+x/Users/Luke/Library/MobileDevice/Provisioning Profiles/50DCFE56-AE9D-4821-8C1A-BB9680174F63.mobileprovision
+x/Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/embedded.mobileprovision
+lSLF07#2@191"ProcessProductPackaging "/Users/Luke/Library/MobileDevice/Provisioning Profiles/50DCFE56-AE9D-4821-8C1A-BB9680174F63.mobileprovision" build/Release-iphoneos/iHere.app/embedded.mobileprovision332590021#332590021#0(0"0(0#0#84"/Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/embedded.mobileprovision8621968352#398"    cd /Users/Luke/Projects/iHere    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/Luke/Library/MobileDevice/Provisioning Profiles/50DCFE56-AE9D-4821-8C1A-BB9680174F63.mobileprovision" -o /Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/iHere.xcent
+s332590021.491541
+e332590021.518530
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+x/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/iHere.xcent
+lSLF07#2@171"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist build/iHere.build/Release-iphoneos/iHere.build/iHere.xcent332590021#332590021#0(0"0(0#0#85"/Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/iHere.xcent8618680672#404"    cd /Users/Luke/Projects/iHere    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist -entitlements -format xml -o /Users/Luke/Projects/iHere/build/iHere.build/Release-iphoneos/iHere.build/iHere.xcent0#
+
+CTouch /Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app
+s332590021.489459
+e332590021.491486
+r1
+xTouch
+x/Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app
+lSLF07#2@65"Touch /Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app332590021#332590021#0(0"0(0#0#0"8621173312#240"    cd /Users/Luke/Projects/iHere    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app0#
+
+CValidate /Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app
+s332590021.662804
+e332590022.136308
+r1
+xValidate
+x/Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app
+o2011-07-17 18:07:01.877 Validation[56055:607] *** Warning: Defaulting to the standard codesign tool
+lSLF07#2@41"Validate build/Release-iphoneos/iHere.app332590021#332590022#0(100"2011-07-17 18:07:01.877 Validation[56055:607] *** Warning: Defaulting to the standard codesign tool0(0#0#59"/Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app8621023200#349"    cd /Users/Luke/Projects/iHere    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/Luke/Projects/iHere/build/Release-iphoneos/iHere.app0#
+

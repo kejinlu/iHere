@@ -1,0 +1,595 @@
+TiHere
+v7
+r0
+t332590313.263764
+cCheck dependencies
+cProcessInfoPlistFile /Users/Luke/Projects/iHere/build/Debug-iphonesimulator/iHere.app/Info.plist iHere-Info.plist
+cCompileXIB /Users/Luke/Projects/iHere/MainWindow.xib
+cCompileXIB /Users/Luke/Projects/iHere/iHereViewController.xib
+cCpResource build/Debug-iphonesimulator/iHere.app/Icon-72.png appicons/Icon-72.png
+cCpResource build/Debug-iphonesimulator/iHere.app/Icon-Small-50.png appicons/Icon-Small-50.png
+cCpResource build/Debug-iphonesimulator/iHere.app/Icon-Small.png appicons/Icon-Small.png
+cCpResource build/Debug-iphonesimulator/iHere.app/Icon-Small@2x.png appicons/Icon-Small@2x.png
+cCpResource build/Debug-iphonesimulator/iHere.app/Icon.png appicons/Icon.png
+cCpResource build/Debug-iphonesimulator/iHere.app/Icon@2x.png appicons/Icon@2x.png
+cCpResource build/Debug-iphonesimulator/iHere.app/iTunesArtwork appicons/iTunesArtwork
+cCpResource build/Debug-iphonesimulator/iHere.app/launch.png launch.png
+cCpResource build/Debug-iphonesimulator/iHere.app/launch@2x.png launch@2x.png
+cCpResource build/Debug-iphonesimulator/iHere.app/button.png button.png
+cProcessPCH /var/folders/t2/t2hCuEx3H8G5o8SSdaP+tU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iHere_Prefix-hdjfvcfklgitzngmpejisvjleemz/iHere_Prefix.pch.gch iHere_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iHere.build/Debug-iphonesimulator/iHere.build/Objects-normal/i386/main.o /Users/Luke/Projects/iHere/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iHere.build/Debug-iphonesimulator/iHere.build/Objects-normal/i386/iHereAppDelegate.o /Users/Luke/Projects/iHere/Classes/iHereAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iHere.build/Debug-iphonesimulator/iHere.build/Objects-normal/i386/iHereViewController.o /Users/Luke/Projects/iHere/Classes/iHereViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iHere.build/Debug-iphonesimulator/iHere.build/Objects-normal/i386/CoreLocationController.o /Users/Luke/Projects/iHere/Classes/CoreLocationController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iHere.build/Debug-iphonesimulator/iHere.build/Objects-normal/i386/DestinationPlaceMark.o /Users/Luke/Projects/iHere/Classes/DestinationPlaceMark.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/Luke/Projects/iHere/build/Debug-iphonesimulator/iHere.app/iHere normal i386
+cGenerateDSYMFile /Users/Luke/Projects/iHere/build/Debug-iphonesimulator/iHere.app.dSYM /Users/Luke/Projects/iHere/build/Debug-iphonesimulator/iHere.app/iHere
+cTouch /Users/Luke/Projects/iHere/build/Debug-iphonesimulator/iHere.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004D5C9B4E0000000000000110
+t1297914702
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54CFFA00000000002999B0
+t1297403898
+s2726320
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004D54DEBC00000000000778F0
+t1297407676
+s489712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004D54DEB600000000000001D0
+t1297407670
+s464
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54CFE5000000000029DA70
+t1297403877
+s2742896
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54CFB80000000000001466
+t1297403832
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
+c000000004D5C9BDB00000000000002FE
+t1297914843
+s766
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c000000004D5C9BEB000000000018CAB0
+t1297914859
+s1624752
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MessageUI.h
+c000000004D5DE85400000000000000CD
+t1297999956
+s205
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+c000000004D5DE869000000000009B020
+t1297999977
+s634912
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5615B40000000000000AA1
+t1297487284
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5616030000000000766870
+t1297487363
+s7759984
+
+N/Users/Luke/Projects/iHere/Classes/CoreLocationController.h
+c000000004E21B7D10000000000000294
+t1310832593
+s660
+i<Foundation/Foundation.h>
+i<CoreLocation/CoreLocation.h>
+
+N/Users/Luke/Projects/iHere/Classes/CoreLocationController.m
+c000000004E21B22400000000000003EF
+t1310831140
+s1007
+i"CoreLocationController.h"
+
+N/Users/Luke/Projects/iHere/Classes/DestinationPlaceMark.h
+c000000004E224DA100000000000001D3
+t1310870945
+s467
+i<Foundation/Foundation.h>
+i<MapKit/MapKit.h>
+
+N/Users/Luke/Projects/iHere/Classes/DestinationPlaceMark.m
+c000000004E22A01500000000000001EC
+t1310892053
+s492
+i"DestinationPlaceMark.h"
+
+N/Users/Luke/Projects/iHere/Classes/iHereAppDelegate.h
+c000000004E2191E300000000000001C4
+t1310822883
+s452
+i<UIKit/UIKit.h>
+
+N/Users/Luke/Projects/iHere/Classes/iHereAppDelegate.m
+c000000004E2191E30000000000000A91
+t1310822883
+s2705
+i"iHereAppDelegate.h"
+i"iHereViewController.h"
+
+N/Users/Luke/Projects/iHere/Classes/iHereViewController.h
+c000000004E22B175000000000000033B
+t1310896501
+s827
+i<UIKit/UIKit.h>
+i<MapKit/MapKit.h>
+i<MessageUI/MessageUI.h>
+i"CoreLocationController.h"
+i"DestinationPlaceMark.h"
+
+N/Users/Luke/Projects/iHere/Classes/iHereViewController.m
+c000000004E22B26E00000000000019A3
+t1310896750
+s6563
+i"iHereViewController.h"
+
+N/Users/Luke/Projects/iHere/MainWindow.xib
+c000000004E2191E30000000000004E11
+t1310822883
+s19985
+
+N/Users/Luke/Projects/iHere/appicons/Icon-72.png
+c000000004E21C8610000000000003CD9
+t1310836833
+s15577
+
+N/Users/Luke/Projects/iHere/appicons/Icon-Small-50.png
+c000000004E21C8610000000000002A8C
+t1310836833
+s10892
+
+N/Users/Luke/Projects/iHere/appicons/Icon-Small.png
+c000000004E21C8610000000000001EF1
+t1310836833
+s7921
+
+N/Users/Luke/Projects/iHere/appicons/Icon-Small@2x.png
+c000000004E21C8610000000000003037
+t1310836833
+s12343
+
+N/Users/Luke/Projects/iHere/appicons/Icon.png
+c000000004E21C8610000000000002FB6
+t1310836833
+s12214
+
+N/Users/Luke/Projects/iHere/appicons/Icon@2x.png
+c000000004E21C86100000000000070B1
+t1310836833
+s28849
+
+N/Users/Luke/Projects/iHere/appicons/iTunesArtwork
+c000000004E21C8610000000000053E4B
+t1310836833
+s343627
+
+N/Users/Luke/Projects/iHere/appicons/map.png
+c000000004E21C2C60000000000008D26
+t1310835398
+s36134
+
+N/Users/Luke/Projects/iHere/appicons/map@2x.png
+c000000004E21C2C6000000000001BA62
+t1310835398
+s113250
+
+N/Users/Luke/Projects/iHere/build/Debug-iphonesimulator/iHere.app
+t1310897513
+s646
+
+N/Users/Luke/Projects/iHere/build/Debug-iphonesimulator/iHere.app.dSYM
+t1310897513
+s102
+
+N/Users/Luke/Projects/iHere/build/Debug-iphonesimulator/iHere.app/Icon-72.png
+t1310836929
+s15577
+
+N/Users/Luke/Projects/iHere/build/Debug-iphonesimulator/iHere.app/Icon-Small-50.png
+t1310836929
+s10892
+
+N/Users/Luke/Projects/iHere/build/Debug-iphonesimulator/iHere.app/Icon-Small.png
+t1310836929
+s7921
+
+N/Users/Luke/Projects/iHere/build/Debug-iphonesimulator/iHere.app/Icon-Small@2x.png
+t1310836929
+s12343
+
+N/Users/Luke/Projects/iHere/build/Debug-iphonesimulator/iHere.app/Icon.png
+t1310836929
+s12214
+
+N/Users/Luke/Projects/iHere/build/Debug-iphonesimulator/iHere.app/Icon@2x.png
+t1310836929
+s28849
+
+N/Users/Luke/Projects/iHere/build/Debug-iphonesimulator/iHere.app/Info.plist
+t1310897511
+s774
+
+N/Users/Luke/Projects/iHere/build/Debug-iphonesimulator/iHere.app/MainWindow.nib
+t1310897512
+s1119
+
+N/Users/Luke/Projects/iHere/build/Debug-iphonesimulator/iHere.app/PkgInfo
+t1310897511
+s8
+
+N/Users/Luke/Projects/iHere/build/Debug-iphonesimulator/iHere.app/button.png
+t1310897511
+s12013
+
+N/Users/Luke/Projects/iHere/build/Debug-iphonesimulator/iHere.app/iHere
+t1310897513
+s35280
+
+N/Users/Luke/Projects/iHere/build/Debug-iphonesimulator/iHere.app/iHereViewController.nib
+t1310897512
+s1948
+
+N/Users/Luke/Projects/iHere/build/Debug-iphonesimulator/iHere.app/iTunesArtwork
+t1310836929
+s343627
+
+N/Users/Luke/Projects/iHere/build/Debug-iphonesimulator/iHere.app/launch.png
+t1310897511
+s212764
+
+N/Users/Luke/Projects/iHere/build/Debug-iphonesimulator/iHere.app/launch@2x.png
+t1310897511
+s958292
+
+N/Users/Luke/Projects/iHere/build/Debug-iphonesimulator/iHere.app/map.png
+t1310835516
+s36134
+
+N/Users/Luke/Projects/iHere/build/Debug-iphonesimulator/iHere.app/map@2x.png
+t1310835516
+s113250
+
+N/Users/Luke/Projects/iHere/build/iHere.build/Debug-iphonesimulator/iHere.build/Objects-normal/i386/CoreLocationController.o
+t1310897512
+s16608
+
+N/Users/Luke/Projects/iHere/build/iHere.build/Debug-iphonesimulator/iHere.build/Objects-normal/i386/DestinationPlaceMark.o
+t1310897512
+s12276
+
+N/Users/Luke/Projects/iHere/build/iHere.build/Debug-iphonesimulator/iHere.build/Objects-normal/i386/iHere.LinkFileList
+c000000004E22B567000000000000024F
+t1310897511
+s591
+
+N/Users/Luke/Projects/iHere/build/iHere.build/Debug-iphonesimulator/iHere.build/Objects-normal/i386/iHereAppDelegate.o
+t1310897512
+s53680
+
+N/Users/Luke/Projects/iHere/build/iHere.build/Debug-iphonesimulator/iHere.build/Objects-normal/i386/iHereViewController.o
+t1310897512
+s74272
+
+N/Users/Luke/Projects/iHere/build/iHere.build/Debug-iphonesimulator/iHere.build/Objects-normal/i386/main.o
+t1310897512
+s7156
+
+N/Users/Luke/Projects/iHere/button.png
+c000000004E22ACB40000000000002EED
+t1310895284
+s12013
+
+N/Users/Luke/Projects/iHere/iHereViewController.xib
+c000000004E22AD98000000000000522D
+t1310895512
+s21037
+
+N/Users/Luke/Projects/iHere/iHere_Prefix.pch
+c000000004E2191E300000000000000B3
+t1310822883
+s179
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Luke/Projects/iHere/launch.png
+c000000004E22ACD60000000000033F1C
+t1310895318
+s212764
+
+N/Users/Luke/Projects/iHere/launch@2x.png
+c000000004E22A89D00000000000E9F54
+t1310894237
+s958292
+
+N/Users/Luke/Projects/iHere/main.m
+c000000004E2191E30000000000000158
+t1310822883
+s344
+i<UIKit/UIKit.h>
+
+N/var/folders/t2/t2hCuEx3H8G5o8SSdaP+tU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iHere_Prefix-asmzmrmpediimncemqdslhqzsnpr/iHere_Prefix.pch.gch
+t1310825610
+s15814064
+
+N/var/folders/t2/t2hCuEx3H8G5o8SSdaP+tU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iHere_Prefix-hdjfvcfklgitzngmpejisvjleemz/iHere_Prefix.pch.gch
+t1310897512
+s15814064
+
+NiHere-Info.plist
+c000000004E22A83400000000000004BD
+t1310894132
+s1213
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies332590311#332590311#0(0"0(0#1#0"8627091200#0"0#
+
+CCompileC build/iHere.build/Debug-iphonesimulator/iHere.build/Objects-normal/i386/CoreLocationController.o /Users/Luke/Projects/iHere/Classes/CoreLocationController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s332590312.812014
+e332590312.918399
+r1
+xCompileC
+xbuild/iHere.build/Debug-iphonesimulator/iHere.build/Objects-normal/i386/CoreLocationController.o
+x/Users/Luke/Projects/iHere/Classes/CoreLocationController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/Luke/Projects/iHere/Classes/CoreLocationController.m332590312#332590312#0(0"0(0#0#59"/Users/Luke/Projects/iHere/Classes/CoreLocationController.m8624293632#1786"    cd /Users/Luke/Projects/iHere    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/Luke/Projects/iHere/build/iHere.build/Debug-iphonesimulator/iHere.build/iHere-generated-files.hmap -I/Users/Luke/Projects/iHere/build/iHere.build/Debug-iphonesimulator/iHere.build/iHere-own-target-headers.hmap -I/Users/Luke/Projects/iHere/build/iHere.build/Debug-iphonesimulator/iHere.build/iHere-all-target-headers.hmap -iquote /Users/Luke/Projects/iHere/build/iHere.build/Debug-iphonesimulator/iHere.build/iHere-project-headers.hmap -F/Users/Luke/Projects/iHere/build/Debug-iphonesimulator -I/Users/Luke/Projects/iHere/build/Debug-iphonesimulator/include -I/Users/Luke/Projects/iHere/build/iHere.build/Debug-iphonesimulator/iHere.build/DerivedSources/i386 -I/Users/Luke/Projects/iHere/build/iHere.build/Debug-iphonesimulator/iHere.build/DerivedSources -include /var/folders/t2/t2hCuEx3H8G5o8SSdaP+tU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iHere_Prefix-hdjfvcfklgitzngmpejisvjleemz/iHere_Prefix.pch -c /Users/Luke/Projects/iHere/Classes/CoreLocationController.m -o /Users/Luke/Projects/iHere/build/iHere.build/Debug-iphonesimulator/iHere.build/Objects-normal/i386/CoreLocationController.o0#
+
+CCompileC build/iHere.build/Debug-iphonesimulator/iHere.build/Objects-normal/i386/DestinationPlaceMark.o /Users/Luke/Projects/iHere/Classes/DestinationPlaceMark.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s332590312.812833
+e332590312.876049
+r1
+xCompileC
+xbuild/iHere.build/Debug-iphonesimulator/iHere.build/Objects-normal/i386/DestinationPlaceMark.o
+x/Users/Luke/Projects/iHere/Classes/DestinationPlaceMark.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/Luke/Projects/iHere/Classes/DestinationPlaceMark.m332590312#332590312#0(0"0(0#0#57"/Users/Luke/Projects/iHere/Classes/DestinationPlaceMark.m8623866304#1782"    cd /Users/Luke/Projects/iHere    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/Luke/Projects/iHere/build/iHere.build/Debug-iphonesimulator/iHere.build/iHere-generated-files.hmap -I/Users/Luke/Projects/iHere/build/iHere.build/Debug-iphonesimulator/iHere.build/iHere-own-target-headers.hmap -I/Users/Luke/Projects/iHere/build/iHere.build/Debug-iphonesimulator/iHere.build/iHere-all-target-headers.hmap -iquote /Users/Luke/Projects/iHere/build/iHere.build/Debug-iphonesimulator/iHere.build/iHere-project-headers.hmap -F/Users/Luke/Projects/iHere/build/Debug-iphonesimulator -I/Users/Luke/Projects/iHere/build/Debug-iphonesimulator/include -I/Users/Luke/Projects/iHere/build/iHere.build/Debug-iphonesimulator/iHere.build/DerivedSources/i386 -I/Users/Luke/Projects/iHere/build/iHere.build/Debug-iphonesimulator/iHere.build/DerivedSources -include /var/folders/t2/t2hCuEx3H8G5o8SSdaP+tU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iHere_Prefix-hdjfvcfklgitzngmpejisvjleemz/iHere_Prefix.pch -c /Users/Luke/Projects/iHere/Classes/DestinationPlaceMark.m -o /Users/Luke/Projects/iHere/build/iHere.build/Debug-iphonesimulator/iHere.build/Objects-normal/i386/DestinationPlaceMark.o0#
+
+CCompileC build/iHere.build/Debug-iphonesimulator/iHere.build/Objects-normal/i386/iHereAppDelegate.o /Users/Luke/Projects/iHere/Classes/iHereAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s332590312.810768
+e332590312.918704
+r1
+xCompileC
+xbuild/iHere.build/Debug-iphonesimulator/iHere.build/Objects-normal/i386/iHereAppDelegate.o
+x/Users/Luke/Projects/iHere/Classes/iHereAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/Luke/Projects/iHere/Classes/iHereAppDelegate.m332590312#332590312#0(0"0(0#0#53"/Users/Luke/Projects/iHere/Classes/iHereAppDelegate.m8625098368#1774"    cd /Users/Luke/Projects/iHere    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/Luke/Projects/iHere/build/iHere.build/Debug-iphonesimulator/iHere.build/iHere-generated-files.hmap -I/Users/Luke/Projects/iHere/build/iHere.build/Debug-iphonesimulator/iHere.build/iHere-own-target-headers.hmap -I/Users/Luke/Projects/iHere/build/iHere.build/Debug-iphonesimulator/iHere.build/iHere-all-target-headers.hmap -iquote /Users/Luke/Projects/iHere/build/iHere.build/Debug-iphonesimulator/iHere.build/iHere-project-headers.hmap -F/Users/Luke/Projects/iHere/build/Debug-iphonesimulator -I/Users/Luke/Projects/iHere/build/Debug-iphonesimulator/include -I/Users/Luke/Projects/iHere/build/iHere.build/Debug-iphonesimulator/iHere.build/DerivedSources/i386 -I/Users/Luke/Projects/iHere/build/iHere.build/Debug-iphonesimulator/iHere.build/DerivedSources -include /var/folders/t2/t2hCuEx3H8G5o8SSdaP+tU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iHere_Prefix-hdjfvcfklgitzngmpejisvjleemz/iHere_Prefix.pch -c /Users/Luke/Projects/iHere/Classes/iHereAppDelegate.m -o /Users/Luke/Projects/iHere/build/iHere.build/Debug-iphonesimulator/iHere.build/Objects-normal/i386/iHereAppDelegate.o0#
+
+CCompileC build/iHere.build/Debug-iphonesimulator/iHere.build/Objects-normal/i386/iHereViewController.o /Users/Luke/Projects/iHere/Classes/iHereViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s332590312.811317
+e332590312.926175
+r1
+xCompileC
+xbuild/iHere.build/Debug-iphonesimulator/iHere.build/Objects-normal/i386/iHereViewController.o
+x/Users/Luke/Projects/iHere/Classes/iHereViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/Luke/Projects/iHere/Classes/iHereViewController.m332590312#332590312#0(0"0(0#0#56"/Users/Luke/Projects/iHere/Classes/iHereViewController.m8624826208#1780"    cd /Users/Luke/Projects/iHere    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/Luke/Projects/iHere/build/iHere.build/Debug-iphonesimulator/iHere.build/iHere-generated-files.hmap -I/Users/Luke/Projects/iHere/build/iHere.build/Debug-iphonesimulator/iHere.build/iHere-own-target-headers.hmap -I/Users/Luke/Projects/iHere/build/iHere.build/Debug-iphonesimulator/iHere.build/iHere-all-target-headers.hmap -iquote /Users/Luke/Projects/iHere/build/iHere.build/Debug-iphonesimulator/iHere.build/iHere-project-headers.hmap -F/Users/Luke/Projects/iHere/build/Debug-iphonesimulator -I/Users/Luke/Projects/iHere/build/Debug-iphonesimulator/include -I/Users/Luke/Projects/iHere/build/iHere.build/Debug-iphonesimulator/iHere.build/DerivedSources/i386 -I/Users/Luke/Projects/iHere/build/iHere.build/Debug-iphonesimulator/iHere.build/DerivedSources -include /var/folders/t2/t2hCuEx3H8G5o8SSdaP+tU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iHere_Prefix-hdjfvcfklgitzngmpejisvjleemz/iHere_Prefix.pch -c /Users/Luke/Projects/iHere/Classes/iHereViewController.m -o /Users/Luke/Projects/iHere/build/iHere.build/Debug-iphonesimulator/iHere.build/Objects-normal/i386/iHereViewController.o0#
+
+CCompileC build/iHere.build/Debug-iphonesimulator/iHere.build/Objects-normal/i386/main.o /Users/Luke/Projects/iHere/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s332590312.810074
+e332590312.872645
+r1
+xCompileC
+xbuild/iHere.build/Debug-iphonesimulator/iHere.build/Objects-normal/i386/main.o
+x/Users/Luke/Projects/iHere/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@41"Compile /Users/Luke/Projects/iHere/main.m332590312#332590312#0(0"0(0#0#33"/Users/Luke/Projects/iHere/main.m8626981376#1742"    cd /Users/Luke/Projects/iHere    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/Luke/Projects/iHere/build/iHere.build/Debug-iphonesimulator/iHere.build/iHere-generated-files.hmap -I/Users/Luke/Projects/iHere/build/iHere.build/Debug-iphonesimulator/iHere.build/iHere-own-target-headers.hmap -I/Users/Luke/Projects/iHere/build/iHere.build/Debug-iphonesimulator/iHere.build/iHere-all-target-headers.hmap -iquote /Users/Luke/Projects/iHere/build/iHere.build/Debug-iphonesimulator/iHere.build/iHere-project-headers.hmap -F/Users/Luke/Projects/iHere/build/Debug-iphonesimulator -I/Users/Luke/Projects/iHere/build/Debug-iphonesimulator/include -I/Users/Luke/Projects/iHere/build/iHere.build/Debug-iphonesimulator/iHere.build/DerivedSources/i386 -I/Users/Luke/Projects/iHere/build/iHere.build/Debug-iphonesimulator/iHere.build/DerivedSources -include /var/folders/t2/t2hCuEx3H8G5o8SSdaP+tU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iHere_Prefix-hdjfvcfklgitzngmpejisvjleemz/iHere_Prefix.pch -c /Users/Luke/Projects/iHere/main.m -o /Users/Luke/Projects/iHere/build/iHere.build/Debug-iphonesimulator/iHere.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/Luke/Projects/iHere/MainWindow.xib
+s332590311.804243
+e332590312.132702
+r1
+xCompileXIB
+x/Users/Luke/Projects/iHere/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib332590311#332590312#0(0"0(0#0#41"/Users/Luke/Projects/iHere/MainWindow.xib8624759584#532"    cd /Users/Luke/Projects/iHere    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Luke/Projects/iHere/build/Debug-iphonesimulator/iHere.app/MainWindow.nib /Users/Luke/Projects/iHere/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/Luke/Projects/iHere/iHereViewController.xib
+s332590311.804708
+e332590312.165857
+r1
+xCompileXIB
+x/Users/Luke/Projects/iHere/iHereViewController.xib
+lSLF07#2@34"CompileXIB iHereViewController.xib332590311#332590312#0(0"0(0#0#50"/Users/Luke/Projects/iHere/iHereViewController.xib8624132416#550"    cd /Users/Luke/Projects/iHere    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Luke/Projects/iHere/build/Debug-iphonesimulator/iHere.app/iHereViewController.nib /Users/Luke/Projects/iHere/iHereViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCpResource build/Debug-iphonesimulator/iHere.app/Icon-72.png appicons/Icon-72.png
+s332529729.431771
+e332529729.436066
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iHere.app/Icon-72.png
+xappicons/Icon-72.png
+lSLF07#2@25"Copy appicons/Icon-72.png332529729#332529729#0(0"0(0#0#47"/Users/Luke/Projects/iHere/appicons/Icon-72.png8627563264#440"    cd /Users/Luke/Projects/iHere    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Luke/Projects/iHere/appicons/Icon-72.png /Users/Luke/Projects/iHere/build/Debug-iphonesimulator/iHere.app0#
+
+CCpResource build/Debug-iphonesimulator/iHere.app/Icon-Small-50.png appicons/Icon-Small-50.png
+s332529729.432475
+e332529729.436213
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iHere.app/Icon-Small-50.png
+xappicons/Icon-Small-50.png
+lSLF07#2@31"Copy appicons/Icon-Small-50.png332529729#332529729#0(0"0(0#0#53"/Users/Luke/Projects/iHere/appicons/Icon-Small-50.png8629742688#446"    cd /Users/Luke/Projects/iHere    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Luke/Projects/iHere/appicons/Icon-Small-50.png /Users/Luke/Projects/iHere/build/Debug-iphonesimulator/iHere.app0#
+
+CCpResource build/Debug-iphonesimulator/iHere.app/Icon-Small.png appicons/Icon-Small.png
+s332529729.432889
+e332529729.436747
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iHere.app/Icon-Small.png
+xappicons/Icon-Small.png
+lSLF07#2@28"Copy appicons/Icon-Small.png332529729#332529729#0(0"0(0#0#50"/Users/Luke/Projects/iHere/appicons/Icon-Small.png8629491328#443"    cd /Users/Luke/Projects/iHere    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Luke/Projects/iHere/appicons/Icon-Small.png /Users/Luke/Projects/iHere/build/Debug-iphonesimulator/iHere.app0#
+
+CCpResource build/Debug-iphonesimulator/iHere.app/Icon-Small@2x.png appicons/Icon-Small@2x.png
+s332529729.433293
+e332529729.436946
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iHere.app/Icon-Small@2x.png
+xappicons/Icon-Small@2x.png
+lSLF07#2@31"Copy appicons/Icon-Small@2x.png332529729#332529729#0(0"0(0#0#53"/Users/Luke/Projects/iHere/appicons/Icon-Small@2x.png8628492576#446"    cd /Users/Luke/Projects/iHere    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Luke/Projects/iHere/appicons/Icon-Small@2x.png /Users/Luke/Projects/iHere/build/Debug-iphonesimulator/iHere.app0#
+
+CCpResource build/Debug-iphonesimulator/iHere.app/Icon.png appicons/Icon.png
+s332529729.433775
+e332529729.437633
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iHere.app/Icon.png
+xappicons/Icon.png
+lSLF07#2@22"Copy appicons/Icon.png332529729#332529729#0(0"0(0#0#44"/Users/Luke/Projects/iHere/appicons/Icon.png8628361696#437"    cd /Users/Luke/Projects/iHere    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Luke/Projects/iHere/appicons/Icon.png /Users/Luke/Projects/iHere/build/Debug-iphonesimulator/iHere.app0#
+
+CCpResource build/Debug-iphonesimulator/iHere.app/Icon@2x.png appicons/Icon@2x.png
+s332529729.434342
+e332529729.438282
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iHere.app/Icon@2x.png
+xappicons/Icon@2x.png
+lSLF07#2@25"Copy appicons/Icon@2x.png332529729#332529729#0(0"0(0#0#47"/Users/Luke/Projects/iHere/appicons/Icon@2x.png8626314784#440"    cd /Users/Luke/Projects/iHere    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Luke/Projects/iHere/appicons/Icon@2x.png /Users/Luke/Projects/iHere/build/Debug-iphonesimulator/iHere.app0#
+
+CCpResource build/Debug-iphonesimulator/iHere.app/button.png button.png
+s332590311.806149
+e332590311.830601
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iHere.app/button.png
+xbutton.png
+lSLF07#2@15"Copy button.png332590311#332590311#0(0"0(0#0#37"/Users/Luke/Projects/iHere/button.png8620417440#430"    cd /Users/Luke/Projects/iHere    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Luke/Projects/iHere/button.png /Users/Luke/Projects/iHere/build/Debug-iphonesimulator/iHere.app0#
+
+CCpResource build/Debug-iphonesimulator/iHere.app/iTunesArtwork appicons/iTunesArtwork
+s332529729.434931
+e332529729.441514
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iHere.app/iTunesArtwork
+xappicons/iTunesArtwork
+lSLF07#2@27"Copy appicons/iTunesArtwork332529729#332529729#0(0"0(0#0#49"/Users/Luke/Projects/iHere/appicons/iTunesArtwork8624879648#442"    cd /Users/Luke/Projects/iHere    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Luke/Projects/iHere/appicons/iTunesArtwork /Users/Luke/Projects/iHere/build/Debug-iphonesimulator/iHere.app0#
+
+CCpResource build/Debug-iphonesimulator/iHere.app/launch.png launch.png
+s332590311.805360
+e332590311.832694
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iHere.app/launch.png
+xlaunch.png
+lSLF07#2@15"Copy launch.png332590311#332590311#0(0"0(0#0#37"/Users/Luke/Projects/iHere/launch.png8622234624#430"    cd /Users/Luke/Projects/iHere    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Luke/Projects/iHere/launch.png /Users/Luke/Projects/iHere/build/Debug-iphonesimulator/iHere.app0#
+
+CCpResource build/Debug-iphonesimulator/iHere.app/launch@2x.png launch@2x.png
+s332590311.805748
+e332590311.841436
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iHere.app/launch@2x.png
+xlaunch@2x.png
+lSLF07#2@18"Copy launch@2x.png332590311#332590311#0(0"0(0#0#40"/Users/Luke/Projects/iHere/launch@2x.png8621733088#433"    cd /Users/Luke/Projects/iHere    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Luke/Projects/iHere/launch@2x.png /Users/Luke/Projects/iHere/build/Debug-iphonesimulator/iHere.app0#
+
+CCpResource build/Debug-iphonesimulator/iHere.app/map.png appicons/map.png
+s332528316.458170
+e332528316.497007
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iHere.app/map.png
+xappicons/map.png
+lSLF07#2@21"Copy appicons/map.png332528316#332528316#0(0"0(0#0#43"/Users/Luke/Projects/iHere/appicons/map.png8625893728#436"    cd /Users/Luke/Projects/iHere    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Luke/Projects/iHere/appicons/map.png /Users/Luke/Projects/iHere/build/Debug-iphonesimulator/iHere.app0#
+
+CCpResource build/Debug-iphonesimulator/iHere.app/map@2x.png appicons/map@2x.png
+s332528316.458609
+e332528316.497847
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iHere.app/map@2x.png
+xappicons/map@2x.png
+lSLF07#2@24"Copy appicons/map@2x.png332528316#332528316#0(0"0(0#0#46"/Users/Luke/Projects/iHere/appicons/map@2x.png8625163744#439"    cd /Users/Luke/Projects/iHere    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Luke/Projects/iHere/appicons/map@2x.png /Users/Luke/Projects/iHere/build/Debug-iphonesimulator/iHere.app0#
+
+CGenerateDSYMFile /Users/Luke/Projects/iHere/build/Debug-iphonesimulator/iHere.app.dSYM /Users/Luke/Projects/iHere/build/Debug-iphonesimulator/iHere.app/iHere
+s332590313.250221
+e332590313.261923
+r1
+xGenerateDSYMFile
+x/Users/Luke/Projects/iHere/build/Debug-iphonesimulator/iHere.app.dSYM
+x/Users/Luke/Projects/iHere/build/Debug-iphonesimulator/iHere.app/iHere
+lSLF07#2@103"GenerateDSYMFile build/Debug-iphonesimulator/iHere.app.dSYM build/Debug-iphonesimulator/iHere.app/iHere332590313#332590313#0(0"0(0#0#70"/Users/Luke/Projects/iHere/build/Debug-iphonesimulator/iHere.app/iHere8627402176#341"    cd /Users/Luke/Projects/iHere    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/Luke/Projects/iHere/build/Debug-iphonesimulator/iHere.app/iHere -o /Users/Luke/Projects/iHere/build/Debug-iphonesimulator/iHere.app.dSYM0#
+
+CLd /Users/Luke/Projects/iHere/build/Debug-iphonesimulator/iHere.app/iHere normal i386
+s332590312.926240
+e332590313.250145
+r1
+xLd
+x/Users/Luke/Projects/iHere/build/Debug-iphonesimulator/iHere.app/iHere
+xnormal
+xi386
+lSLF07#2@75"Link /Users/Luke/Projects/iHere/build/Debug-iphonesimulator/iHere.app/iHere332590312#332590313#0(0"0(0#0#0"8623599552#893"    cd /Users/Luke/Projects/iHere    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/Luke/Projects/iHere/build/Debug-iphonesimulator -F/Users/Luke/Projects/iHere/build/Debug-iphonesimulator -filelist /Users/Luke/Projects/iHere/build/iHere.build/Debug-iphonesimulator/iHere.build/Objects-normal/i386/iHere.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -framework MapKit -framework MessageUI -o /Users/Luke/Projects/iHere/build/Debug-iphonesimulator/iHere.app/iHere0#
+
+CProcessInfoPlistFile /Users/Luke/Projects/iHere/build/Debug-iphonesimulator/iHere.app/Info.plist iHere-Info.plist
+s332590311.801857
+e332590311.804188
+r1
+xProcessInfoPlistFile
+x/Users/Luke/Projects/iHere/build/Debug-iphonesimulator/iHere.app/Info.plist
+xiHere-Info.plist
+lSLF07#2@24"Process iHere-Info.plist332590311#332590311#0(0"0(0#0#43"/Users/Luke/Projects/iHere/iHere-Info.plist8625467520#437"    cd /Users/Luke/Projects/iHere    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility iHere-Info.plist -genpkginfo /Users/Luke/Projects/iHere/build/Debug-iphonesimulator/iHere.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/Luke/Projects/iHere/build/Debug-iphonesimulator/iHere.app/Info.plist0#
+
+CProcessPCH /var/folders/t2/t2hCuEx3H8G5o8SSdaP+tU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iHere_Prefix-asmzmrmpediimncemqdslhqzsnpr/iHere_Prefix.pch.gch iHere_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s332518409.807401
+e332518410.454254
+r1
+xProcessPCH
+x/var/folders/t2/t2hCuEx3H8G5o8SSdaP+tU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iHere_Prefix-asmzmrmpediimncemqdslhqzsnpr/iHere_Prefix.pch.gch
+xiHere_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@27"Precompile iHere_Prefix.pch332518409#332518410#0(0"0(0#0#43"/Users/Luke/Projects/iHere/iHere_Prefix.pch8606354336#1648"    cd /Users/Luke/Projects/iHere    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/Luke/Projects/iHere/build/iHere.build/Debug-iphonesimulator/iHere.build/iHere-generated-files.hmap -I/Users/Luke/Projects/iHere/build/iHere.build/Debug-iphonesimulator/iHere.build/iHere-own-target-headers.hmap -I/Users/Luke/Projects/iHere/build/iHere.build/Debug-iphonesimulator/iHere.build/iHere-all-target-headers.hmap -iquote /Users/Luke/Projects/iHere/build/iHere.build/Debug-iphonesimulator/iHere.build/iHere-project-headers.hmap -F/Users/Luke/Projects/iHere/build/Debug-iphonesimulator -I/Users/Luke/Projects/iHere/build/Debug-iphonesimulator/include -I/Users/Luke/Projects/iHere/build/iHere.build/Debug-iphonesimulator/iHere.build/DerivedSources/i386 -I/Users/Luke/Projects/iHere/build/iHere.build/Debug-iphonesimulator/iHere.build/DerivedSources -c /Users/Luke/Projects/iHere/iHere_Prefix.pch -o /var/folders/t2/t2hCuEx3H8G5o8SSdaP+tU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iHere_Prefix-asmzmrmpediimncemqdslhqzsnpr/iHere_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/t2/t2hCuEx3H8G5o8SSdaP+tU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iHere_Prefix-hdjfvcfklgitzngmpejisvjleemz/iHere_Prefix.pch.gch iHere_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s332590312.165947
+e332590312.809998
+r1
+xProcessPCH
+x/var/folders/t2/t2hCuEx3H8G5o8SSdaP+tU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iHere_Prefix-hdjfvcfklgitzngmpejisvjleemz/iHere_Prefix.pch.gch
+xiHere_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@27"Precompile iHere_Prefix.pch332590312#332590312#0(0"0(0#0#43"/Users/Luke/Projects/iHere/iHere_Prefix.pch8627036640#1648"    cd /Users/Luke/Projects/iHere    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/Luke/Projects/iHere/build/iHere.build/Debug-iphonesimulator/iHere.build/iHere-generated-files.hmap -I/Users/Luke/Projects/iHere/build/iHere.build/Debug-iphonesimulator/iHere.build/iHere-own-target-headers.hmap -I/Users/Luke/Projects/iHere/build/iHere.build/Debug-iphonesimulator/iHere.build/iHere-all-target-headers.hmap -iquote /Users/Luke/Projects/iHere/build/iHere.build/Debug-iphonesimulator/iHere.build/iHere-project-headers.hmap -F/Users/Luke/Projects/iHere/build/Debug-iphonesimulator -I/Users/Luke/Projects/iHere/build/Debug-iphonesimulator/include -I/Users/Luke/Projects/iHere/build/iHere.build/Debug-iphonesimulator/iHere.build/DerivedSources/i386 -I/Users/Luke/Projects/iHere/build/iHere.build/Debug-iphonesimulator/iHere.build/DerivedSources -c /Users/Luke/Projects/iHere/iHere_Prefix.pch -o /var/folders/t2/t2hCuEx3H8G5o8SSdaP+tU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iHere_Prefix-hdjfvcfklgitzngmpejisvjleemz/iHere_Prefix.pch.gch0#
+
+CTouch /Users/Luke/Projects/iHere/build/Debug-iphonesimulator/iHere.app
+s332590313.261987
+e332590313.263741
+r1
+xTouch
+x/Users/Luke/Projects/iHere/build/Debug-iphonesimulator/iHere.app
+lSLF07#2@70"Touch /Users/Luke/Projects/iHere/build/Debug-iphonesimulator/iHere.app332590313#332590313#0(0"0(0#0#0"8627299328#252"    cd /Users/Luke/Projects/iHere    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Luke/Projects/iHere/build/Debug-iphonesimulator/iHere.app0#
+
